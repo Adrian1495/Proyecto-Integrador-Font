@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+    <title>Proyecto Integrador Front - Adrian Figueroa</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+            <div class="cabecera">
+                <div class="navegacion1">
+                    <a href="#"><img src="./assets/img/codoacodo.png" class="logo" alt="Logo Codo a Codo"></a>
+                    <h2 class="titulocabecera">Conf Bs As</h2>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a class="subtitulos1" href="#conferencia">La Conferencia</a>
+                            </li>
+                            <li>
+                                <a class="subtitulos2" href="#losoradores">Los Oradores</a>
+                            </li>
+                            <li>
+                                <a class="subtitulos2" href="#lugarfecha">El Lugar y la Fecha</a>
+                            </li>
+                            <li>
+                                <a class="subtitulos2" href="#formularioorador">Conviertete en Orador</a>
+                            </li>
+                            <li>
+                                <a class="subtitulos3" href="./error404.html">Comprar Tickets</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        <section class="conferencia" id="conferencia">
+            <div class="textoprincipal">
+                <h1>Conf Bs As</h1>
+                <p>
+                    Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
+                    conocimiento y experiencia de los expertos que están creando el futuro de Internet. ven a conocer a
+                    miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
+                    para ti. Te esperamos!
+                </p>
+            <div>   
+                <a class="botonorador" href="#formularioorador">Quiero ser orador</a>
+                <a class="botontickets" href="error404.html">Comprar tickets</a>
+            </div>  
+            </div>
+        </section>
+    </header>    
+    <main>
+        <h2 id="losoradores">CONOCE A LOS <div class="titulooradores">ORADORES</div></h2>
+        <section class="losoradores">
+            <div class="steve"><img class="imagenorador" src="./assets/img/steve.jpg" alt="Steve Jobs">
+                <div class="contenido">
+                    <h4 class="tituloamarillo">JavaScript</h4>
+                    <h4 class="tituloceleste">React</h4>
+                    <h3 class="orador">Steve Jobs</h3>
+                    <p>Steven Jobs fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company.</p>
+                </div>
+            </div>
+            <div class="bill">
+                <img class="imagenorador" src="./assets/img/bill.jpg" alt="Bill Gates">
+                <div class="contenido">
+                    <h4 class="tituloamarillo">JavaScript</h4>
+                    <h4 class="tituloceleste">React</h4>
+                    <h3 class="orador">Bill Gates</h3>
+                    <p>Bill Gates es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen</p>
+                </div>
+            </div>
+            <div class="ada">
+                <img class="imagenorador" src="./assets/img/ada.jpeg" alt="Ada Lovelace">
+                <div class="contenido">
+                    <h4 class="titulogris">Negocios</h4>
+                    <h4 class="titulorojo">Startups</h4>
+                    <h3 class="orador">Ada Lovelace</h3>
+                    <p>Ada Lovelace fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
+                </div>
+            </div>
+        </section>
+        <section class="lugarfecha" id="lugarfecha">
+            <img src="./assets/img/honolulu.jpg" alt="Foto de La Playa de la Ciudad Honolulu, Estados Unidos">
+            <div class="lugar">
+                <h2>Bs As - Octubre</h2>
+                <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina. En los Estados Unidos, Honolulu es la 
+                más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                urbana en la costa sureste de la Isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
+                condado consolidada que cubre toda la ciudad(aproximadamente 600km de superficie)
+                </p>
+                <div class="conocemas">
+                    <a href="https://www.visittheusa.mx/destination/honolulu" target="_blank">Conocé más</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="formulario">
+                <h2 id="formularioorador">CONVIÉRTETE EN UN <div class="tituloformulario">ORADOR</div></h2>
+                <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+            </div>
+            <div class="contenidoformulario">
+                <form action="./error404.html" method="get">
+                    <div class="datos">
+                        <div class="name">
+                        <input type="text" id="name" name="name" placeholder="Nombre" required>
+                        </div>
+                        <div class="lastname">
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="comentario" id="comentario" cols="55" rows="5" placeholder="Sobre qué quieres hablar?" required></textarea>
+                    </div>
+                    <p>Recuerda incluir un título para tu charla</p>
+                    <div class="botonenviar"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </section>
+    </main>    
+<footer>
+    <div class="pie">
+        <a class="pieanclas" href="./error404.html">Preguntas Frecuentes</a>
+        <a class="pieanclas" href="./error404.html">Prensa</a>
+        <a class="pieanclas" href="#conferencia">Conferencias</a>
+        <a class="pieanclas" href="./error404.html">Términos y Condiciones</a>
+        <a class="pieanclas" href="./error404.html">Privacidad</a>
+        <a class="pieanclas" href="#formularioorador">Estudiantes</a>
+        <a class="pieanclas" href="#formularioorador">Contáctanos</a>
+    </div>
+</footer>
+</body>
+</html>
