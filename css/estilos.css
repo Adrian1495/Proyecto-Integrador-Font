@@ -107,6 +107,9 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.parrafo{
+ color: black   
+}
 .botonorador{
     font-family: 'Noto Sans Shavian', sans-serif;
     border: 1px solid white;
@@ -370,4 +373,83 @@ footer a:hover{
     display: flex;
     margin: 25px auto;
     width: 500px; 
+}
+
+/* tickets */
+.tarjetas{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    justify-content: center;
+    font-family: open sans;
+}
+.tarjeta1{
+    border: 1px solid blue;
+    margin: 5px;
+    height: 300px;
+    width: 500px;
+}
+.tarjeta1:hover{
+    background-color: rgba(0, 0, 255, 0.699);
+    transition: 2s;
+}
+.tarjeta2{
+    border:1px solid rgb(17, 221, 21);
+    margin: 5px;
+    height: 300px;
+}
+.tarjeta2:hover{
+    background-color: rgba(17, 221, 20, 0.766) ;
+    transition: 2s;
+}
+.tarjeta3{
+    border: 1px solid yellow;
+    margin: 5px;
+    height: 300px;
+}
+.tarjeta3:hover{
+    background-color: rgba(255, 255, 0, 0.708) ;
+    transition: 2s;
+}
+.porcentaje{
+    font-weight: 800;
+}
+.tituloPequeño{
+    font-size: large;
+    font-family: open sans;
+    text-align: center;
+}
+.tituloGrande{
+    font-size: 50px;
+    font-family: open sans;
+    font-weight: 550;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.animacion{
+    animation-name: miAnimanacion;
+    animation-duration: 2s;
+    position: relative;
+    animation-timing-function: linear;
+}
+@keyframes miAnimanacion {
+    0% {color:rgba(251, 247, 247, 0.658);}
+    50% {color: rgba(123, 120, 120, 0.658);}
+    100% {color: rgba(10, 10, 10, 0.658); }
+}
+.ancho{
+    margin: 0 auto;
+    width: 50%;
+}
+.mostrar{
+    display: block;
+    
+}
+.botonesTickets{
+    color: white;
+    border-radius: 7px;
+    border-color: white;
+    background-color: rgb(114, 204, 50);
+}
+#colorletras{
+    color: black
 }
